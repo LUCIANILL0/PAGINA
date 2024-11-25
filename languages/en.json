@@ -1,0 +1,82 @@
+{
+    "cabecera": {
+        "titulo": "FUNDO LOS PALTOS",
+        "nosotros": "About Us",
+        "productos": "Products",
+        "certificaciones": "Certifications",
+        "fundos": "Funds",
+        "servicios": "Services",
+        "contacto": "Contact"
+    },
+    "carrusel": {
+        "fundo": "Fundo Los Paltos",
+        "somos": "We are leaders in the export of high-quality agricultural products, ensuring freshness and excellence in every delivery.",
+        "conoce": "Discover our products",
+        "calidad": "Quality and excellence in every step of the production process. We export fresh and healthy products.",
+        "descubre": "Learn more about our Certifications",
+        "nuestro": "Our funds guarantee the best quality fruits, meeting the highest international standards.",
+        "contacto": "Contact us"
+    },
+    "about": {
+        "sobre": "About Us",
+        "nuestra": "Our company is focused on the vision of being a sustainable enterprise consolidated in the international market, producing organic food according to global standards and being socially responsible in all aspects. All our techniques, passion, and dedication are focused on providing healthy organic products with responsible production, respecting laws and the environment, and facilitating the development of our partners and collaborators.",
+        "alcance": "Global Reach",
+        "exportamos": "We export to different countries.",
+        "organicos": "Organic Products",
+        "alta": "Certified and high quality.",
+        "crecimiento": "Sustainable Growth",
+        "comprometidos": "Committed to the environment."
+    },
+    "products": {
+        "productos": "Our Products",
+        "tierra": "The smell of the soil, the shape of the seed, the shades of green, the wind, the water, the study of the climate, the technique, the special care, and the wait for the fruit make our work truly exciting.",
+        "tecnica": "All our techniques, passion, and dedication are focused on providing healthy organic products with responsible production, respecting laws and the environment, and facilitating the development of our partners and collaborators.",
+        "palta": "AVOCADO",
+        "mango": "MANGO",
+        "uva": "GRAPE"
+    },
+    "certifications": {
+        "certificaciones": "Our Certifications",
+        "clientes": "The certifications reassure our clients, suppliers, and collaborators that our company applies the best and most recognized practices in the organic growth of various fruits.",
+        "fresca": "This certification, especially relevant in the export of fresh fruits, guarantees compliance with the highest standards in quality, sustainability, and good agricultural practices. It allows us to access a greater number of international markets, strengthen customer trust, and reaffirm our commitment to excellence in every stage of our production.",
+        "estandares": "This certification ensures compliance with key standards in worker well-being, fair working conditions, and respect for their rights. With GRASP, we reaffirm our commitment to social sustainability and corporate responsibility, strengthening the trust of our partners and customers in global markets.",
+        "garantiza": "This certification guarantees that our products meet strict organic standards, ensuring they have been grown without the use of synthetic pesticides, chemical fertilizers, or genetically modified organisms (GMOs). Thanks to this certification, we offer healthy and sustainable foods aligned with the expectations of consumers seeking natural and environmentally friendly products.",
+        "condiciones": "This certification covers key aspects such as fair working conditions, respect for human rights, environmental sustainability, and business ethics. Having SMETA reflects our commitment to responsible and transparent production, strengthening our reputation and trust in international markets.",
+        "criterios": "This certification ensures that our products meet demanding criteria for sustainability, biodiversity, and environmental respect. It also guarantees that our agricultural and production practices promote a natural balance, avoiding the use of chemical pesticides and genetically modified organisms (GMOs). Bio Suisse allows us to access select markets and satisfy the demand of consumers who value quality and the responsible origin of organic products."
+    },
+    "fundos": {
+        "fundos": "Our Funds",
+        "propios": "We have our own funds that guarantee quality, traceability, and sustainable production in every harvest.",
+        "todos": "All",
+        "casma": "Fundo Casma",
+        "nepena": "Fundo Nepeña",
+        "piura": "Fundo Piura"
+    },
+    "services": {
+        "services": "Services",
+        "local": "Local Market Packaging",
+        "empaquetado": "We offer fruit packaging services with high-quality standards, adapted to the local market, ensuring freshness, presentation, and optimal preservation.",
+        "exportacion": "Export Packaging",
+        "brindamos": "We provide fruit packaging services for export, guaranteeing quality, freshness, and compliance with international standards.",
+        "frio": "Cold Storage",
+        "fruta": "We offer cold storage for fruit, ensuring freshness and optimal preservation."
+    },
+    "contact": {
+        "equipo": "TEAM",
+        "gerente": "GENERAL MANAGER",
+        "departamento": "EXPORT DEPARTMENT",
+        "gerencia": "PACKING MANAGEMENT",
+        "contacto": "CONTACT",
+        "oficina": "OFFICE",
+        "ancash": "FUNDS IN ANCASH",
+        "piura": "FUNDS IN PIURA",
+        "navegacion": "NAVIGATION",
+        "nosotros": "About Us",
+        "productos": "Products",
+        "certificaciones": "Certifications",
+        "fundos": "Funds",
+        "servicios": "Services",
+        "contactos": "Contact",
+        "pie": "© 2024 Fundo Los Paltos. All rights reserved."
+    }
+}

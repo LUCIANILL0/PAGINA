@@ -1,0 +1,83 @@
+{
+    "cabecera":{
+        "titulo":"FUNDO LOS PALTOS",
+        "nosotros":"Sobre Nosotros",
+        "productos":"Productos",
+        "certificaciones":"Certificaciones",
+        "fundos":"Fundos",
+        "servicios":"Servicios",
+        "contacto":"Contacto"
+    },
+    "carrusel":{
+        "fundo":"Fundo Los Paltos",
+        "somos":"Somos líderes en la exportación de productos agrícolas de alta calidad, garantizando frescura y excelencia en cada entrega.",
+        "conoce":"Conoce nuestros productos",
+        "calidad":"Calidad y excelencia en cada paso del proceso productivo. Exportamos productos frescos y saludables.",
+        "descubre":"Descubre más sobre nuestros Certificados",
+        "nuestro":"Nuestros fundos garantizan la mejor calidad de frutas, cumpliendo con los más altos estándares internacionales.",
+        "contacto":"Contáctanos"
+    },
+    "about":{
+        "sobre":"Sobre Nosotros",
+        "nuestra":"Nuestra empresa está orientada a la visión de ser una empresa sostenible consolidada en el mercado internacional, productora de alimentos orgánicos según estándares globales y socialmente responsable en todos sus aspectos.Toda nuestra técnica, pasión y dedicación están centrados en proporcionar productos orgánicos saludables con responsabilidad en su producción, respetando las leyes y el medio ambiente, y facilitando el desarrollo de sus socios y colaboradores.",
+        "alcance":"Alcance Global",
+        "exportamos":"Exportamos a diferentes países.",
+        "organicos":"Productos Orgánicos",
+        "alta":"Certificados y de alta calidad.",
+        "crecimiento":"Crecimiento Sostenible.",
+        "comprometidos":"Comprometidos con el medio ambiente."
+    },
+    "products":{
+        "productos":"Nuestros Productos",
+        "tierra":"El olor de la tierra, la forma de la semilla, las tonalidades de verde, el viento, el agua, el estudio del clima, la técnica, el cuidado especial y la espera del fruto hacen que nuestro trabajo sea realmente apasionante.",
+        "tecnica":"Toda nuestra técnica, pasión y dedicación están centrados en proporcionar productos orgánicos saludables con responsabilidad en su producción, respetando las leyes y el medio ambiente, y facilitando el desarrollo de sus socios y colaboradores.",
+        "palta":"PALTA",
+        "mango":"MANGO",
+        "uva":"UVA"
+    },
+    "certifications":{
+        "certificaciones":"Nuestras Certificaciones",
+        "clientes":"Las certificaciones reafirma a nuestros clientes, proveedores a colaboradores que nuestra empresa aplica las mejores y reconocidas prácticas en el crecimiento orgánico de las diferentes frutas.",
+        "fresca":"Esta certificación, especialmente relevante en la exportación de frutas frescas, garantiza el cumplimiento de los más altos estándares en calidad, sostenibilidad y buenas prácticas agrícolas. Nos permite acceder a un mayor número de mercados internacionales, fortalecer la confianza de nuestros clientes y reafirmar nuestro compromiso con la excelencia en cada etapa de nuestra producción.",
+        "estandares":"Esta certificación asegura el cumplimiento de estándares clave en bienestar de los trabajadores, condiciones laborales justas y respeto por sus derechos. Con GRASP, reafirmamos nuestro compromiso con la sostenibilidad social y la responsabilidad empresarial, fortaleciendo la confianza de nuestros socios y clientes en los mercados globales.",
+        "garantiza":"Esta certificación garantiza que nuestros productos cumplen con estrictos estándares orgánicos, asegurando que han sido cultivados sin el uso de pesticidas sintéticos, fertilizantes químicos ni organismos genéticamente modificados (OGM). Gracias a esta certificación, ofrecemos alimentos saludables y sostenibles, alineados con las expectativas de los consumidores que buscan productos naturales y respetuosos con el medio ambiente.",
+        "condiciones":"Esta certificación abarca aspectos clave como condiciones laborales justas, respeto por los derechos humanos, sostenibilidad ambiental y ética empresarial. Contar con SMETA refleja nuestro compromiso con una producción responsable y transparente, fortaleciendo nuestra reputación y confianza en los mercados internacionales.",
+        "criterios":"Esta certificación asegura que nuestros productos cumplen con exigentes criterios de sostenibilidad, biodiversidad y respeto por el medio ambiente. Además, garantiza que nuestras prácticas agrícolas y de producción promueven un equilibrio natural, evitando el uso de pesticidas químicos y organismos genéticamente modificados (OGM). Bio Suisse nos permite acceder a mercados selectos y satisfacer la demanda de consumidores que valoran la calidad y el origen responsable de los productos orgánicos."
+    },
+    "fundos":{
+        "fundos":"Nuestros Fundos",
+        "propios":"Contamos con fundos propios que garantizan calidad, trazabilidad y producción sostenible en cada cosecha",
+        "todos":"Todos",
+        "casma":"Fundo Casma",
+        "nepena":"Fundo Nepeña",
+        "piura":"Fundo Piura"
+    },
+    "services":{
+        "services":"Servicios",
+        "local":"Empaquetadora Mercado Local",
+        "empaquetado":"Ofrecemos servicios de empaquetado de fruta con altos estándares de calidad, adaptados al mercado local, para garantizar frescura, presentación y conservación óptimas.",
+        "exportacion":"Empaquetadora para Exportacion",
+        "brindamos":"Brindamos servicios de empaquetado de fruta para exportación, garantizando calidad, frescura y cumplimiento de estándares internacionales.",
+        "frio":"Almacenaje en Frio",
+        "fruta":"Ofrecemos almacenaje de fruta en frío, asegurando frescura y conservación óptima."
+    },
+    "contact":{
+        "equipo":"EQUIPO",
+        "gerente":"GERENTE GENERAL",
+        "departamento":"DEPARTAMENTO DE EXPORTACIÓN",
+        "gerencia":"GERENCIA DE PACKING",
+        "contacto":"CONTACTO",
+        "oficina":"OFICINA",
+        "ancash":"FUNDOS EN ANCASH",
+        "piura":"FUNDOS EN PIURA",
+        "navegacion":"NAVEGACION",
+        "nosotros":"Sobre Nosotros",
+        "productos":"Productos",
+        "certificaciones":"Certificaciones",
+        "fundos":"Fundos",
+        "servicios":"Servicios",
+        "contactos":"Contacto",
+        "pie":"© 2024 Fundo Los Paltos. Todos los derechos reservados."
+    }
+
+}

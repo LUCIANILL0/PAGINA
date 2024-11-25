@@ -26,44 +26,30 @@
 <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
-
+<link href="css/flp.css" rel="stylesheet">
 </head>
-<style>
-    /* Establece una altura personalizada para el carousel */
-    .carousel-item {
-        height: 550px; /* Ajusta esta altura a tu preferencia */
-    }
 
-    /* Ajusta las imágenes para que se adapten al tamaño del carousel */
-    .carousel-item img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover; /* Asegura que la imagen se ajuste sin distorsión */
-    }
-
-
-</style>
 <body>
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-success navbar-light sticky-top p-0">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h1 class="m-0 text-white fs-6">FUNDO LOS PALTOS</h1>
+            <h1 class="m-0 text-white fs-6" data-section="cabecera" data-value="titulo">FUNDO LOS PALTOS</h1>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="#about" class="nav-link text-white fs-6">Sobre Nosotros</a>
-                <a href="#products" class="nav-link text-white fs-6">Productos</a>
-                <a href="#certifications" class="nav-link text-white fs-6">Certificaciones</a>
-                <a href="#fundos" class="nav-link text-white fs-6">Fundos</a>
-                <a href="#servicios" class="nav-link text-white fs-6">Servicios</a>
-                <a href="#contact" class="nav-link text-white fs-6">Contacto</a>
-                <li class="nav-link fs-6">
-                    <a class="text-white active" href="index.html?lang=es">Es</a>
+                <a href="#about" class="nav-link text-white fs-6" data-section="cabecera" data-value="nosotros">Nosotros</a>
+                <a href="#products" class="nav-link text-white fs-6" data-section="cabecera" data-value="productos">Productos</a>
+                <a href="#certifications" class="nav-link text-white fs-6" data-section="cabecera" data-value="certificaciones">Certificaciones</a>
+                <a href="#fundos" class="nav-link text-white fs-6" data-section="cabecera" data-value="fundos">Fundos</a>
+                <a href="#services" class="nav-link text-white fs-6" data-section="cabecera" data-value="servicios">Servicios</a>
+                <a href="#contact" class="nav-link text-white fs-6" data-section="cabecera" data-value="contacto">Contacto</a>
+                <li class="nav-link fs-6" id="flags">
+                    <a class="text-white" href="#" data-lenguage="es">Es</a>
                     <span class="text-white">|</span>
-                    <a class="text-white" href="index_en.html?lang=en">En</a>
+                    <a class="text-white" href="#" data-lenguage="en">En</a>
                 </li>
             </div>
         </div>
@@ -83,9 +69,9 @@
                                 <div class="container">
                                     <div class="row justify-content-center">
                                         <div class="col-lg-8">
-                                            <h1 class="display-1 text-white mb-5 animated slideInDown">Fundo Los Paltos</h1>
-                                            <p class="lead">Somos líderes en la exportación de productos agrícolas de alta calidad, garantizando frescura y excelencia en cada entrega.</p>
-                                            <a href="#products" class="btn btn-primary py-sm-3 px-sm-4">Conoce nuestros productos</a>
+                                            <h1 class="display-1 text-white mb-5 animated slideInDown" data-section="carrusel" data-value="fundo">Fundo Los Paltos</h1>
+                                            <p class="lead" data-section="carrusel" data-value="somos">Somos líderes en la exportación de productos agrícolas de alta calidad, garantizando frescura y excelencia en cada entrega.</p>
+                                            <a href="#products" class="btn btn-primary py-sm-3 px-sm-4" data-section="carrusel" data-value="conoce">Conoce nuestros productos</a>
                                         </div>
                                     </div>
                                 </div>
@@ -97,9 +83,9 @@
                                 <div class="container">
                                     <div class="row justify-content-center">
                                         <div class="col-lg-7">
-                                            <h1 class="display-1 text-white mb-5 animated slideInDown">Fundo Los Paltos</h1>
-                                            <p class="lead">Calidad y excelencia en cada paso del proceso productivo. Exportamos productos frescos y saludables.</p>
-                                            <a href="#certifications" class="btn btn-primary py-sm-3 px-sm-4">Descubre más sobre nuestros Certificados</a>
+                                            <h1 class="display-1 text-white mb-5 animated slideInDown" data-section="carrusel" data-value="fundo">Fundo Los Paltos</h1>
+                                            <p class="lead" data-section="carrusel" data-value="calidad">Calidad y excelencia en cada paso del proceso productivo. Exportamos productos frescos y saludables.</p>
+                                            <a href="#certifications" class="btn btn-primary py-sm-3 px-sm-4" data-section="carrusel" data-value="descubre">Descubre más sobre nuestros Certificados</a>
                                         </div>
                                     </div>
                                 </div>
@@ -111,9 +97,9 @@
                                 <div class="container">
                                     <div class="row justify-content-center">
                                         <div class="col-lg-7">
-                                            <h1 class="display-1 text-white mb-5 animated slideInDown">Fundo Los Paltos</h1>
-                                            <p class="lead">Nuestros fundos garantizan la mejor calidad de frutas, cumpliendo con los más altos estándares internacionales.</p>
-                                            <a href="#contact" class="btn btn-primary py-sm-3 px-sm-4">Contáctanos</a>
+                                            <h1 class="display-1 text-white mb-5 animated slideInDown" data-section="carrusel" data-value="fundo">Fundo Los Paltos</h1>
+                                            <p class="lead" data-section="carrusel" data-value="nuestro">Nuestros fundos garantizan la mejor calidad de frutas, cumpliendo con los más altos estándares internacionales.</p>
+                                            <a href="#contact" class="btn btn-primary py-sm-3 px-sm-4" data-section="carrusel" data-value="contacto">Contáctanos</a>
                                         </div>
                                     </div>
                                 </div>
@@ -139,8 +125,8 @@
             <div class="container">
                 <div class="row g-5 align-items-center">
                   <div class="col-lg-6">
-                        <h2 class="mb-5 text-center text-success">Sobre Nosotros</h2>
-                        <p>
+                        <h2 class="mb-5 text-center text-success" data-section="about" data-value="sobre">Sobre Nosotros</h2>
+                        <p data-section="about" data-value="nuestra">
                             Nuestra empresa está orientada a la visión de ser una empresa sostenible consolidada en el mercado internacional, productora de alimentos orgánicos según estándares globales y socialmente responsable en todos sus aspectos.
                             Toda nuestra técnica, pasión y dedicación están centrados en proporcionar productos orgánicos saludables con responsabilidad en su producción, respetando las leyes y el medio ambiente, y facilitando el desarrollo de sus socios y colaboradores.
                         </p>
@@ -155,8 +141,8 @@
                                             <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
                                                 <br><i class="fa fa-users fa-3x text-success"></i>
                                             </div>
-                                            <h4 class="mb-0 text-success">Alcance Global</h4>
-                                            <p>Exportamos a diferentes países.</p>
+                                            <h4 class="mb-0 text-success" data-section="about" data-value="alcance">Alcance Global</h4>
+                                            <p data-section="about" data-value="exportamos">Exportamos a diferentes países.</p>
                                         </div>
                                     </div>
                                     <div class="col-12 wow fadeIn" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
@@ -164,8 +150,8 @@
                                             <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
                                                 <br><i class="fa fa-check fa-3x text-success"></i>
                                             </div>
-                                            <h4 class="mb-0 text-success">Productos Orgánicos</h4>
-                                            <p>Certificados y de alta calidad.</p>
+                                            <h4 class="mb-0 text-success" data-section="about" data-value="organicos">Productos Orgánicos</h4>
+                                            <p data-section="about" data-value="alta">Certificados y de alta calidad.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -175,8 +161,8 @@
                                     <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
                                         <br><i class="fa fa-tools fa-3x text-success"></i>
                                     </div>
-                                    <h4 class="mb-0 text-success">Crecimiento Sostenible</h4>
-                                    <p>Comprometidos con el medio ambiente.</p>
+                                    <h4 class="mb-0 text-success" data-section="about" data-value="crecimiento">Crecimiento Sostenible</h4>
+                                    <p data-section="about" data-value="comprometidos">Comprometidos con el medio ambiente.</p>
                                 </div>
                             </div>
                         </div>
@@ -190,11 +176,10 @@
             <div class="container text-white">
                 <div class="row">
                     <div class="col-md-6 py-5">
-                        <h3 class="mb-5 text-light">Nuestros Productos</h2>  
-                        <p class="text-light">El olor de la tierra, la forma de la semilla, las tonalidades de verde, el viento, el agua, 
-                        el estudio del clima, la técnica, el cuidado especial y la espera del fruto hacen que nuestro 
-                        trabajo sea realmente apasionante</p> 
-                        <p class="text-light">
+                        <h3 class="mb-5 text-light" data-section="products" data-value="productos">Nuestros Productos</h2>  
+                        <p class="text-light" data-section="products" data-value="tierra">El olor de la tierra, la forma de la semilla, las tonalidades de verde, el viento, el agua, 
+                        el estudio del clima, la técnica, el cuidado especial y la espera del fruto hacen que nuestro trabajo sea realmente apasionante</p> 
+                        <p class="text-light" data-section="products" data-value="tecnica">
                             Toda nuestra técnica, pasión y dedicación están centrados en proporcionar productos orgánicos saludables con 
                             responsabilidad en su producción, respetando las leyes y el medio ambiente, y facilitando el desarrollo de sus 
                             socios y colaboradores.
@@ -206,7 +191,7 @@
                                 <div class="team-item rounded">
                                     <img class="img-fluid" style="border-radius: 15px; overflow: hidden; height: 230px;" src="images/logo_palta.png" alt="Palta">
                                     <div class="team-text">
-                                        <h4 class="mb-0">PALTA</h4>
+                                        <h4 class="mb-0" data-section="products" data-value="palta">PALTA</h4>
                                         <!-- <p class="text-primary">Landscape Designer</p>
                                         <div class="team-social d-flex">
                                             <a class="btn btn-square rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
@@ -220,7 +205,7 @@
                                 <div class="team-item rounded">
                                     <img class="img-fluid" style="border-radius: 15px; overflow: hidden; height: 230px;" src="images/logo_mango.png" alt="Mango">
                                     <div class="team-text">
-                                        <h4 class="mb-0">MANGO</h4>
+                                        <h4 class="mb-0" data-section="products" data-value="mango">MANGO</h4>
                                         <!-- <p class="text-primary">Landscape Designer</p>
                                         <div class="team-social d-flex">
                                             <a class="btn btn-square rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
@@ -244,7 +229,7 @@
                                 <div class="team-item rounded">
                                     <img class="img-fluid" style="border-radius: 15px; overflow: hidden; height: 230px;" src="images/logo_uva.png" alt="Uva">
                                     <div class="team-text">
-                                        <h4 class="mb-0">UVA</h4>
+                                        <h4 class="mb-0" data-section="products" data-value="uva">UVA</h4>
                                         <!-- <p class="text-primary">Landscape Designer</p>
                                         <div class="team-social d-flex">
                                             <a class="btn btn-square rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
@@ -265,34 +250,34 @@
                 <div class="row g-5">
                     <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
                         <!-- <p class="fs-5 fw-bold text-primary">Nuestras Certificaciones</p> -->
-                        <h2 class="mb-5 text-success">Nuestras Certificaciones</h2>
-                        <p class="mb-4 text-start">Las certificaciones reafirma a nuestros clientes, proveedores a colaboradores que nuestra empresa aplica las mejores y reconocidas prácticas en el crecimiento orgánico de las diferentes frutas.</p>
+                        <h2 class="mb-5 text-success" data-section="certifications" data-value="certificaciones">Nuestras Certificaciones</h2>
+                        <p class="mb-4 text-start" data-section="certifications" data-value="clientes">Las certificaciones reafirma a nuestros clientes, proveedores a colaboradores que nuestra empresa aplica las mejores y reconocidas prácticas en el crecimiento orgánico de las diferentes frutas.</p>
                     </div>
                     <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="owl-carousel testimonial-carousel">
                             <div class="testimonial-item">
                                 <img class="img-fluid rounded mb-3" src="images/logo_global.png" alt="">
-                                <p class="fs-6">Esta certificación, especialmente relevante en la exportación de frutas frescas, garantiza el cumplimiento de los más altos estándares en calidad, sostenibilidad y buenas prácticas agrícolas. Nos permite acceder a un mayor número de mercados internacionales, fortalecer la confianza de nuestros clientes y reafirmar nuestro compromiso con la excelencia en cada etapa de nuestra producción.</p>
+                                <p class="fs-6" data-section="certifications" data-value="fresca">Esta certificación, especialmente relevante en la exportación de frutas frescas, garantiza el cumplimiento de los más altos estándares en calidad, sostenibilidad y buenas prácticas agrícolas. Nos permite acceder a un mayor número de mercados internacionales, fortalecer la confianza de nuestros clientes y reafirmar nuestro compromiso con la excelencia en cada etapa de nuestra producción.</p>
                                 <h4>Global Gap</h4>
                             </div>
                             <div class="testimonial-item">
                                 <img class="img-fluid rounded mb-3" src="images/logo_grasp.png" alt="">
-                                <p class="fs-6">Esta certificación asegura el cumplimiento de estándares clave en bienestar de los trabajadores, condiciones laborales justas y respeto por sus derechos. Con GRASP, reafirmamos nuestro compromiso con la sostenibilidad social y la responsabilidad empresarial, fortaleciendo la confianza de nuestros socios y clientes en los mercados globales.</p>
+                                <p class="fs-6" data-section="certifications" data-value="estandares">Esta certificación asegura el cumplimiento de estándares clave en bienestar de los trabajadores, condiciones laborales justas y respeto por sus derechos. Con GRASP, reafirmamos nuestro compromiso con la sostenibilidad social y la responsabilidad empresarial, fortaleciendo la confianza de nuestros socios y clientes en los mercados globales.</p>
                                 <h4>Grasp</h4>
                             </div>
                             <div class="testimonial-item">
                                 <img class="img-fluid rounded mb-3" src="images/logo_usda.png" alt="">
-                                <p class="fs-6">Esta certificación garantiza que nuestros productos cumplen con estrictos estándares orgánicos, asegurando que han sido cultivados sin el uso de pesticidas sintéticos, fertilizantes químicos ni organismos genéticamente modificados (OGM). Gracias a esta certificación, ofrecemos alimentos saludables y sostenibles, alineados con las expectativas de los consumidores que buscan productos naturales y respetuosos con el medio ambiente.</p>
+                                <p class="fs-6" data-section="certifications" data-value="garantiza">Esta certificación garantiza que nuestros productos cumplen con estrictos estándares orgánicos, asegurando que han sido cultivados sin el uso de pesticidas sintéticos, fertilizantes químicos ni organismos genéticamente modificados (OGM). Gracias a esta certificación, ofrecemos alimentos saludables y sostenibles, alineados con las expectativas de los consumidores que buscan productos naturales y respetuosos con el medio ambiente.</p>
                                 <h4>Organic</h4>
                             </div>
                             <div class="testimonial-item">
                                 <img class="img-fluid rounded mb-3" src="images/logo_sedexmember.png" alt="">
-                                <p class="fs-6">Esta certificación abarca aspectos clave como condiciones laborales justas, respeto por los derechos humanos, sostenibilidad ambiental y ética empresarial. Contar con SMETA refleja nuestro compromiso con una producción responsable y transparente, fortaleciendo nuestra reputación y confianza en los mercados internacionales.</p>
+                                <p class="fs-6" data-section="certifications" data-value="condiciones">Esta certificación abarca aspectos clave como condiciones laborales justas, respeto por los derechos humanos, sostenibilidad ambiental y ética empresarial. Contar con SMETA refleja nuestro compromiso con una producción responsable y transparente, fortaleciendo nuestra reputación y confianza en los mercados internacionales.</p>
                                 <h4>Smeta</h4>
                             </div>
                             <div class="testimonial-item">
                                 <img class="img-fluid rounded mb-3" src="images/logo_biosuisse.png" alt="">
-                                <p class="fs-6">Esta certificación asegura que nuestros productos cumplen con exigentes criterios de sostenibilidad, biodiversidad y respeto por el medio ambiente. Además, garantiza que nuestras prácticas agrícolas y de producción promueven un equilibrio natural, evitando el uso de pesticidas químicos y organismos genéticamente modificados (OGM). Bio Suisse nos permite acceder a mercados selectos y satisfacer la demanda de consumidores que valoran la calidad y el origen responsable de los productos orgánicos.</p>
+                                <p class="fs-6" data-section="certifications" data-value="criterios">Esta certificación asegura que nuestros productos cumplen con exigentes criterios de sostenibilidad, biodiversidad y respeto por el medio ambiente. Además, garantiza que nuestras prácticas agrícolas y de producción promueven un equilibrio natural, evitando el uso de pesticidas químicos y organismos genéticamente modificados (OGM). Bio Suisse nos permite acceder a mercados selectos y satisfacer la demanda de consumidores que valoran la calidad y el origen responsable de los productos orgánicos.</p>
                                 <h4>Biosuisse</h4>
                             </div>
                         </div>
@@ -304,15 +289,15 @@
         <!-- Our Fundos Section -->
         <section id="fundos" class="py-5 bg-success">
             <div class="container text-center">
-                <h2 class="mb-5 text-white">Nuestros Fundos</h2>
-                <p class="fs-5 fw-bold text-light">Contamos con fundos propios que garantizan calidad, trazabilidad y producción sostenible en cada cosecha</p>
+                <h2 class="mb-5 text-white" data-section="fundos" data-value="fundos">Nuestros Fundos</h2>
+                <p class="fs-5 fw-bold text-light" data-section="fundos" data-value="propios">Contamos con fundos propios que garantizan calidad, trazabilidad y producción sostenible en cada cosecha</p>
                 <div class="row wow fadeInUp" data-wow-delay="0.3s">
                     <div class="col-12 text-center">
                         <ul class="list-inline rounded mb-5" id="portfolio-flters">
-                            <li class="mx-2 active" data-filter="*">Todos</li>
-                            <li class="mx-2" data-filter=".first">Fundo Casma</li>
-                            <li class="mx-2" data-filter=".second">Fundo Nepeña</li>
-                            <li class="mx-2" data-filter=".tree">Fundo Piura</li>
+                            <li class="mx-2 active" data-filter="*" data-section="fundos" data-value="todos">Todos</li>
+                            <li class="mx-2" data-filter=".first" data-section="fundos" data-value="casma">Fundo Casma</li>
+                            <li class="mx-2" data-filter=".second" data-section="fundos" data-value="nepena">Fundo Nepeña</li>
+                            <li class="mx-2" data-filter=".tree" data-section="fundos" data-value="piura">Fundo Piura</li>
                         </ul>
                     </div>
                 </div>
@@ -321,7 +306,7 @@
                         <div class="portfolio-inner rounded">
                             <img class="img-fluid" src="images/service-8.jpg" alt="">
                             <div class="portfolio-text">
-                                <h4 class="text-white mb-4">Fundo Casma</h4>
+                                <h4 class="text-white mb-4" data-section="fundos" data-value="casma">Fundo Casma</h4>
                                 <div class="d-flex">
                                     <a class="btn btn-lg-square rounded-circle mx-2" href="images/service-8.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <!-- <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a> -->
@@ -333,7 +318,7 @@
                         <div class="portfolio-inner rounded">
                             <img class="img-fluid" src="images/service-10.jpg" alt="">
                             <div class="portfolio-text">
-                                <h4 class="text-white mb-4">Fundo Nepeña</h4>
+                                <h4 class="text-white mb-4" data-section="fundos" data-value="nepena">Fundo Nepeña</h4>
                                 <div class="d-flex">
                                     <a class="btn btn-lg-square rounded-circle mx-2" href="images/service-10.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <!-- <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a> -->
@@ -345,7 +330,7 @@
                         <div class="portfolio-inner rounded">
                             <img class="img-fluid" src="images/service-9.jpg" alt="">
                             <div class="portfolio-text">
-                                <h4 class="text-white mb-4">Fundo Piura</h4>
+                                <h4 class="text-white mb-4" data-section="fundos" data-value="piura">Fundo Piura</h4>
                                 <div class="d-flex">
                                     <a class="btn btn-lg-square rounded-circle mx-2" href="images/service-9.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <!-- <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a> -->
@@ -357,7 +342,7 @@
                         <div class="portfolio-inner rounded">
                             <img class="img-fluid" src="images/service-11.jpg" alt="">
                             <div class="portfolio-text">
-                                <h4 class="text-white mb-4">Fundo Nepeña</h4>
+                                <h4 class="text-white mb-4" data-section="fundos" data-value="nepena">Fundo Nepeña</h4>
                                 <div class="d-flex">
                                     <a class="btn btn-lg-square rounded-circle mx-2" href="images/service-11.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <!-- <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a> -->
@@ -369,7 +354,7 @@
                         <div class="portfolio-inner rounded">
                             <img class="img-fluid" src="images/service-7.jpg" alt="">
                             <div class="portfolio-text">
-                                <h4 class="text-white mb-4">Fundo Casma</h4>
+                                <h4 class="text-white mb-4" data-section="fundos" data-value="casma">Fundo Casma</h4>
                                 <div class="d-flex">
                                     <a class="btn btn-lg-square rounded-circle mx-2" href="images/service-7.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <!-- <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a> -->
@@ -381,7 +366,7 @@
                         <div class="portfolio-inner rounded">
                             <img class="img-fluid" src="images/service-12.jpg" alt="">
                             <div class="portfolio-text">
-                                <h4 class="text-white mb-4">Fundo Piura</h4>
+                                <h4 class="text-white mb-4" data-section="fundos" data-value="piura">Fundo Piura</h4>
                                 <div class="d-flex">
                                     <a class="btn btn-lg-square rounded-circle mx-2" href="images/service-12.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <!-- <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a> -->
@@ -393,9 +378,9 @@
             </div>
         </section>
         <!-- Our Servicios Section -->
-        <section id="servicios" class="py-5">
+        <section id="services" class="py-5">
             <div class="container-xxl text-center text-success">
-                <h2 class="mb-5 text-center text-success">Servicios</h2>
+                <h2 class="mb-5 text-center text-success" data-section="services" data-value="services">Servicios</h2>
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                         <div class="service-item rounded d-flex h-100">
@@ -406,8 +391,8 @@
                                 <div class="btn-square rounded-circle mx-auto mb-3">
                                     <img class="img-fluid" src="images/icon/icon-10.png" alt="Icon">
                                 </div>
-                                <h4 class="mb-3">Empaquetadora Mercado Local</h4>
-                                <p class="mb-4">Ofrecemos servicios de empaquetado de fruta con altos estándares de calidad, adaptados al mercado local, para garantizar frescura, presentación y conservación óptimas.</p>
+                                <h4 class="mb-3" data-section="services" data-value="local">Empaquetadora Mercado Local</h4>
+                                <p class="mb-4" data-section="services" data-value="empaquetado">Ofrecemos servicios de empaquetado de fruta con altos estándares de calidad, adaptados al mercado local, para garantizar frescura, presentación y conservación óptimas.</p>
                                 <!-- <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a> -->
                             </div>
                         </div>
@@ -421,8 +406,8 @@
                                 <div class="btn-square rounded-circle mx-auto mb-3">
                                     <img class="img-fluid" src="images/icon/icon-1.png" alt="Icon">
                                 </div>
-                                <h4 class="mb-3">Empaquetadora para Exportacion</h4>
-                                <p class="mb-4">Brindamos servicios de empaquetado de fruta para exportación, garantizando calidad, frescura y cumplimiento de estándares internacionales.</p>
+                                <h4 class="mb-3" data-section="services" data-value="exportacion">Empaquetadora para Exportacion</h4>
+                                <p class="mb-4" data-section="services" data-value="brindamos">Brindamos servicios de empaquetado de fruta para exportación, garantizando calidad, frescura y cumplimiento de estándares internacionales.</p>
                                 <!-- <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a> -->
                             </div>
                         </div>
@@ -436,8 +421,8 @@
                                 <div class="btn-square rounded-circle mx-auto mb-3">
                                     <img class="img-fluid" src="images/icon/icon-8.png" alt="Icon">
                                 </div>
-                                <h4 class="mb-3">Almacenaje en Frio</h4>
-                                <p class="mb-4">Ofrecemos almacenaje de fruta en frío, asegurando frescura y conservación óptima.</p>
+                                <h4 class="mb-3" data-section="services" data-value="frio">Almacenaje en Frio</h4>
+                                <p class="mb-4" data-section="services" data-value="fruta">Ofrecemos almacenaje de fruta en frío, asegurando frescura y conservación óptima.</p>
                                 <!-- <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a> -->
                             </div>
                         </div>
@@ -451,64 +436,64 @@
             <div class="container text-white">
                 <div class="row invoice-info">
                     <div class="col-sm-4 invoice-col">
-                      EQUIPO
+                      <p data-section="contact" data-value="equipo">EQUIPO</p>
                       <address>
-                        <strong>Renzo Muro Suarez</strong><br>
-                        GERENTE GENERAL<br>
+                        <strong>Renzo Muro Suarez</strong>
+                        <h6 class="text-light" data-section="contact" data-value="gerente">GERENTE GENERAL</h6>
                         Email: rmuros@fundolospaltos.com.pe
                       </address>
                       <address>
-                        <strong>Patricia Marchena Miranda</strong><br>
-                        DEPARTAMENTO DE EXPORTACIÓN<br>
+                        <strong>Patricia Marchena Miranda</strong>
+                        <h6 class="text-light" data-section="contact" data-value="departamento">DEPARTAMENTO DE EXPORTACIÓN</h6>
                         Email: pmarchena@fundolospaltos.com.pe
                       </address>
                       <address>
-                        <strong>Juan Sono</strong><br>
-                        GERENCIA DE PACKING<br>
+                        <strong>Juan Sono</strong>
+                        <h6 class="text-light"  data-section="contact" data-value="gerencia">GERENCIA DE PACKING</h6>
                         Email: g-packing@fundolospaltos.com.pe
                       </address>
                     </div>
                     <!-- /.col -->
                     <div class="col-sm-4 invoice-col">
-                      CONTACTO<br>
+                      <p data-section="contact" data-value="contacto">CONTACTO</p>
                       <address>
-                        <strong>OFICINA</strong><br>
+                        <strong data-section="contact" data-value="oficina">OFICINA</strong><br>
                         Av. Huascaran 381 Mz Q Lt 8<br>
                         Nuevo Chimbote, Santa, Ancash, Perú<br>
                         Telefono: (51- 43) 601 606
                       </address>
                       <address>
-                        <strong>FUNDOS EN ANCASH</strong><br>
+                        <strong data-section="contact" data-value="ancash">FUNDOS EN ANCASH</strong><br>
                         Carretera Campiña s/n Sec. Santa Aldina<br>
                         Nepeña, Perú
                       </address>
                       <address>
-                        <strong>FUNDOS EN PIURA</strong><br>
+                        <strong data-section="contact" data-value="piura">FUNDOS EN PIURA</strong><br>
                         Nro. 48 Cas. Cruce de Vega<br>
                         Tambogrande, Perú
                       </address>
                     </div>
                     <!-- /.col -->
                     <div class="col-sm-3 invoice-col">
-                        NAVEGACION<br><br>
+                        <p data-section="contact" data-value="navegacion">NAVEGACION</p>
                         <ul>
                             <li>
-                              <a href="#about" class="nav-link text-white">Sobre Nosotros</a>
+                              <a href="#about" class="nav-link text-white" data-section="contact" data-value="nosotros">Sobre Nosotros</a>
                             </li>
                             <li>
-                              <a href="#products" class="nav-link text-white">Productos</a>
+                              <a href="#products" class="nav-link text-white" data-section="contact" data-value="productos">Productos</a>
                             </li>
                             <li>
-                              <a href="#certifications" class="nav-link text-white">Certificaciones</a>
+                              <a href="#certifications" class="nav-link text-white" data-section="contact" data-value="certificaciones">Certificaciones</a>
                             </li>
                             <li>
-                              <a href="#fundos" class="nav-link text-white">Fundos</a>
+                              <a href="#fundos" class="nav-link text-white" data-section="contact" data-value="fundos">Fundos</a>
                             </li>
                             <li>
-                              <a href="#servicios" class="nav-link text-white">Servicios</a>
+                              <a href="#servicios" class="nav-link text-white" data-section="contact" data-value="servicios">Servicios</a>
                             </li>
                             <li>
-                              <a href="#contact" class="nav-link text-white">Contacto</a>
+                              <a href="#contact" class="nav-link text-white" data-section="contact" data-value="contactos">Contacto</a>
                             </li>
                         </ul>
                     </div>  
@@ -530,7 +515,7 @@
     <!-- Footer Section -->
     <footer class="py-2 bg-dark text-white text-center">
         <div class="container">
-            <p class="mb-0">© 2024 Fundo Los Paltos. Todos los derechos reservados.</p>
+            <p class="mb-0" data-section="contact" data-value="pie">© 2024 Fundo Los Paltos. Todos los derechos reservados.</p>
         </div>
     </footer>
 
@@ -549,5 +534,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/scripts.js"></script>
+
 </body>
 </html>

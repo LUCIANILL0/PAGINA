@@ -1,0 +1,16 @@
+    /* Establece una altura personalizada para el carousel */
+    .carousel-item {
+        height: 550px; /* Ajusta esta altura a tu preferencia */
+    }
+
+    /* Ajusta las imágenes para que se adapten al tamaño del carousel */
+    .carousel-item img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover; /* Asegura que la imagen se ajuste sin distorsión */
+    }
+    .active-lenguage {
+        font-weight: bold;
+        text-decoration: underline;
+        color: yellow;
+    }
