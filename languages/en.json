@@ -63,8 +63,7 @@
     },
     "contact": {
         "equipo": "TEAM",
-        "gerente": "GENERAL MANAGER",
-        "departamento": "EXPORT DEPARTMENT",
+        "departamento": "SALES AND EXPORT DEPARTMENT",
         "gerencia": "PACKING MANAGEMENT",
         "contacto": "CONTACT",
         "oficina": "OFFICE",
@@ -77,6 +76,7 @@
         "fundos": "Funds",
         "servicios": "Services",
         "contactos": "Contact",
+        "redes":"SOCIAL NETWORKS",
         "pie": "© 2024 Fundo Los Paltos. All rights reserved."
     }
 }
